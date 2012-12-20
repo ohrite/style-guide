@@ -65,7 +65,7 @@ Then add the following lines to `Procfile`, located in the root of your app:
 * The canonical installation of Style Guide pulls in all of the
   directories under `app/views/style_guide`, like so:
 
-      config.style_guide.partial_paths << Rails.root.join("app/views/style_guide/*")
+        config.style_guide.partial_paths << Rails.root.join("app/views/style_guide/*")
 
 * From here, the Style Guide is broken down into sections,
   like "Buttons", "Forms" and "Typography".
